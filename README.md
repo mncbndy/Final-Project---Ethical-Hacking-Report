@@ -45,26 +45,19 @@ _**Vulnerability Summary**_
 
 * *Critical :*
 * Rogue Access Point detected in Lazada’s wireless network, potentially allowing an attacker to intercept wireless traffic and perform man-in-the-middle attacks.
+* Weak encryption (WEP) used in Lazada’s guest wireless network, potentially allowing attackers to intercept and decrypt wireless traffic, thereby exposing sensitive data.
 * *High :*
 * Open wireless networks without any authentication in Lazada’s office, potentially allowing unauthorized access to the network.
 So, the updated list would be:
-* *Critical :*
-* Weak encryption (WEP) used in Lazada’s guest wireless network, potentially allowing attackers to intercept and decrypt wireless traffic, thereby exposing sensitive data.
-* *Critical :*
-* Rogue Access Point detected in Lazada’s wireless network, potentially allowing an attacker to intercept wireless traffic and perform man-in-the-middle attacks.
-* *High :* Open wireless networks without any authentication in Lazada’s office, potentially allowing unauthorized access to the network.
 
 5.  #### Social Engineering ####
 
 * *High :*
 * Several employees fell victim to phishing emails, providing credentials and sensitive information in response.
-* *High :*
 * A number of employees were tricked into downloading malicious software through a spear-phishing attack, compromising the security of their systems.
-* *Critical :*
-* An attacker posed as a tech support specialist and convinced an employee to provide remote access to their computer, potentially exposing sensitive company data.
-* *High :*
 * An attacker impersonated a company executive in an email, requesting urgent wire transfers from the finance department.
 * *Critical :*
+* An attacker posed as a tech support specialist and convinced an employee to provide remote access to their computer, potentially exposing sensitive company data.
 * Employees were targeted by a vishing (voice phishing) attack where the attacker posed as a bank representative and collected sensitive financial information over the phone.
    
 _**Recommendations**_
