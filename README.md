@@ -96,6 +96,12 @@ _**Recommendations**_
 * *Use Two-Factor Authentication (2FA) :* Consider implementing two-factor authentication for an added layer of security.
 
 5.  #### Phishing Emails ####
+   
+* *Rogue Access Point :* Implement a Wireless Intrusion Prevention System (WIPS) to detect and neutralize rogue access points. Regularly monitor and audit the wireless network for any unauthorized devices.
+* *Weak Encryption (WEP) :* Upgrade the encryption protocol on Lazada’s guest wireless network from WEP to a more secure standard such as WPA2 or WPA3. This will make it much harder for attackers to decrypt wireless traffic.
+* *Open Wireless Networks :* Implement at least basic authentication for all wireless networks in Lazada’s office. Consider using a Virtual Private Network (VPN) for additional security. This will prevent unauthorized access to the network.
+   
+5.  #### Phishing Emails ####
 
 * *Security Awareness Training :* Conduct regular security awareness training for employees to help them identify and respond appropriately to phishing emails.
 * *Email Filtering :* Implement email filtering solutions that can detect and block phishing emails.
