@@ -1,9 +1,9 @@
 # Final Project - Ethical Hacking Report
-_*Client :*_ *Lazada Group*
+_**Client :**_ *Lazada Group*
 
-_*Date :*_ *May, 11 2024*
+_**Date :**_ *May, 11 2024*
 
-_*Prepared By :*_ *Buquid, Ed Jim C. and Bondoy, Monica G.*
+_**Prepared By :**_ *Buquid, Ed Jim C. and Bondoy, Monica G.*
 
 _*Executive Summary :*_ This report presents the technical findings of the ethical hacking assessment
 conducted for Lazada. The assessment aimed to identify vulnerabilities within the
@@ -12,7 +12,7 @@ including penetration testing and vulnerability scanning, critical and high-risk
 This report provides detailed descriptions of these findings, along with actionable recommendations for
 remediation.
 
-_*Vulnerability Summary :*_
+_**Vulnerability Summary :**_
 1.  #### Network Infrastructure ####
 
  * *Crital :* Remote Code Execution vulnerability (CVE-2024-1234) in the Apache Struts framework (version 2.3.34) running on Lazada’s main server, potentially allowing an attacker to execute arbitrary code remotely.
@@ -48,7 +48,7 @@ So, the updated list would be:
 * *High :* Open wireless networks without any authentication in Lazada’s office, potentially allowing unauthorized access to the network.
 
 
-_*Recommendations :*_
+_**Recommendations :**_
 
 3.  #### Operating System : ####
 * *Upgrade Operating Systems :* Consider upgrading to a more recent and supported version of the operating system. Newer versions often come with improved security features.
