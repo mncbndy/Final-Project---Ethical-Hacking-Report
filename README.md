@@ -12,7 +12,7 @@ including penetration testing and vulnerability scanning, critical and high-risk
 This report provides detailed descriptions of these findings, along with actionable recommendations for
 remediation.
 
-_**Vulnerability Summary :**_
+_**Vulnerability Summary**_
 1.  #### Network Infrastructure ####
 
  * *Crital :*
@@ -33,7 +33,7 @@ _**Vulnerability Summary :**_
 
 
 
-3.  #### Operating System : ####
+3.  #### Operating System ####
 
 * *Critical :*
 * Outdated and unpatched operating systems (Windows Server 2012 R2) on Lazada’s payment processing servers, potentially exposing them to known exploits and malware.
@@ -41,7 +41,7 @@ _**Vulnerability Summary :**_
 *  Weak password policies on Lazada’s domain user accounts, potentially facilitating brute-force attacks and unauthorized access.
 
 
-4.  #### Wireless : ####
+4.  #### Wireless ####
 
  * *Critical :*
  * Rogue Access Point detected in Lazada’s wireless network, potentially allowing an attacker to intercept wireless traffic and perform man-in-the-middle attacks.
@@ -55,7 +55,7 @@ So, the updated list would be:
 * Rogue Access Point detected in Lazada’s wireless network, potentially allowing an attacker to intercept wireless traffic and perform man-in-the-middle attacks.
 * *High :* Open wireless networks without any authentication in Lazada’s office, potentially allowing unauthorized access to the network.
 
-5.  #### Social Engineering : ####
+5.  #### Social Engineering ####
 
 * *High :*
 * Several employees fell victim to phishing emails, providing credentials and sensitive information in response.
@@ -68,7 +68,7 @@ So, the updated list would be:
 * *Critical :*
 * Employees were targeted by a vishing (voice phishing) attack where the attacker posed as a bank representative and collected sensitive financial information over the phone.
    
-_**Recommendations :**_
+_**Recommendations**_
 
 1. #### Remote Code Execution Vulnerability : ####
 * *Patch or Upgrade Apache Struts :* The Apache Struts framework should be patched or upgraded to a version that fixes the CVE-2024-1234 vulnerability. Regularly check for and apply updates or patches released by the software vendor.
@@ -79,7 +79,7 @@ _**Recommendations :**_
 * *Intrusion Detection/Prevention Systems (IDS/IPS) :* Consider implementing an IDS/IPS to monitor network traffic and detect/prevent any malicious activities.
 * *VPN for Remote Access :* If remote access to internal services is necessary, consider using a Virtual Private Network (VPN) to provide a secure, encrypted connection over the internet.
 
-2.  #### SQL Injection Vulnerability : ####
+2.  #### SQL Injection Vulnerability ####
 
 * *Input Validation :* Implement input validation to check for illegal syntax in user inputs before it is processed by the application.
 * *Parameterized Queries :* Use parameterized queries or prepared statements to ensure that parameters (values) are separated from the query itself, reducing the risk of SQL injection.
@@ -93,7 +93,7 @@ _**Recommendations :**_
 * *Unvalidated Redirects and Forwards :* Avoid Redirects and Forwards: If possible, avoid using redirects and forwards in your application.
 * *URL Validation :* If redirects or forwards are necessary, ensure that the target URL is validated to be a part of your application.
 
-3.  #### Operating System : ####
+3.  #### Operating System ####
    
 * *Upgrade Operating Systems :* Consider upgrading to a more recent and supported version of the operating system. Newer versions often come with improved security features.
 *  *Apply Patches Regularly :* Regularly apply security patches and updates to the operating system. This can help protect against known exploits and malware.
@@ -102,7 +102,7 @@ _**Recommendations :**_
 * *Regular Password Changes :* Require users to change their passwords regularly, but avoid too frequent changes as it may lead to weak passwords.
 * *Use Two-Factor Authentication (2FA) :* Consider implementing two-factor authentication for an added layer of security.
 
-5.  #### Phishing Emails : ####
+5.  #### Phishing Emails ####
 
 * *Security Awareness Training :* Conduct regular security awareness training for employees to help them identify and respond appropriately to phishing emails.
 Email Filtering: Implement email filtering solutions that can detect and block phishing emails.
@@ -112,13 +112,16 @@ Spear-Phishing Attacks:
 * *Tech Support Scams :*
 * *Verification Procedures :* Implement procedures for employees to verify the identity of anyone claiming to be tech support.
 * *Limited Access :* Limit the access rights of users and use strong access controls.
-CEO Fraud:
+* *CEO Fraud :*
 * *Verification Procedures :* Implement procedures for verifying any financial transactions requested via email.
 * *Two-Factor Authentication :* Use two-factor authentication for initiating wire transfers.
-Vishing Attacks:
+* *Vishing Attacks :*
 * *Security Awareness Training :* Train employees on how to recognize and respond to vishing attacks.
 * *Caller ID Spoofing Awareness :* Make employees aware that caller ID can be spoofed and that they should not rely on it to verify a caller’s identity.
 
-_**Conclusions :**_
+_**Conclusions**_
 
 The results of the ethical hacking evaluation reveal a number of significant vulnerabilities and security gaps within Lazada’s infrastructure and applications. By taking action on the suggested remediation steps, Lazada can greatly improve its security stance and reduce the likelihood of cyber threats and data breaches. This will ensure a safer and more secure shopping experience for all Lazada customers.
+
+_**Signature**_
+
