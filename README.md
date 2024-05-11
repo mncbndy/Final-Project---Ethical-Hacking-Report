@@ -118,4 +118,4 @@ The results of the ethical hacking evaluation reveal a number of significant vul
 
 _**Signature**_
 
-![signature](image.png)
+![signature](img.png)
