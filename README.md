@@ -41,7 +41,7 @@ _**Vulnerability Summary**_
 *  Weak password policies on Lazada’s domain user accounts, potentially facilitating brute-force attacks and unauthorized access.
 
 
-4.  #### Wireless ####
+4.  #### Wireless Networks ####
 
 * *Critical :*
 * Rogue Access Point detected in Lazada’s wireless network, potentially allowing an attacker to intercept wireless traffic and perform man-in-the-middle attacks.
