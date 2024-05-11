@@ -15,8 +15,10 @@ remediation.
 _**Vulnerability Summary :**_
 1.  #### Network Infrastructure ####
 
- * *Crital :* Remote Code Execution vulnerability (CVE-2024-1234) in the Apache Struts framework (version 2.3.34) running on Lazada’s main server, potentially allowing an attacker to execute arbitrary code remotely.
-* *High :*  Misconfigured firewall rules on Lazada’s payment processing server permitting unrestricted access from external IP ranges to sensitive internal services such as SSH and RDP.
+ * *Crital :*
+ * Remote Code Execution vulnerability (CVE-2024-1234) in the Apache Struts framework (version 2.3.34) running on Lazada’s main server, potentially allowing an attacker to execute arbitrary code remotely.
+* *High :*
+* Misconfigured firewall rules on Lazada’s payment processing server permitting unrestricted access from external IP ranges to sensitive internal services such as SSH and RDP.
 
 2.  #### Web Applications : ####
 * *Critical :*
@@ -33,27 +35,38 @@ _**Vulnerability Summary :**_
 
 3.  #### Operating System : ####
 
-* *Critical :*  Outdated and unpatched operating systems (Windows Server 2012 R2) on Lazada’s payment processing servers, potentially exposing them to known exploits and malware.
-* *High :* Weak password policies on Lazada’s domain user accounts, potentially facilitating brute-force attacks and unauthorized access.
+* *Critical :*
+* Outdated and unpatched operating systems (Windows Server 2012 R2) on Lazada’s payment processing servers, potentially exposing them to known exploits and malware.
+* *High :*
+*  Weak password policies on Lazada’s domain user accounts, potentially facilitating brute-force attacks and unauthorized access.
 
 
 4.  #### Wireless : ####
 
- * *Critical :*  Rogue Access Point detected in Lazada’s wireless network, potentially allowing an attacker to intercept wireless traffic and perform man-in-the-middle attacks.
-* *High :* Open wireless networks without any authentication in Lazada’s office, potentially allowing unauthorized access to the network.
+ * *Critical :*
+ * Rogue Access Point detected in Lazada’s wireless network, potentially allowing an attacker to intercept wireless traffic and perform man-in-the-middle attacks.
+* *High :*
+* Open wireless networks without any authentication in Lazada’s office, potentially allowing unauthorized access to the network.
 So, the updated list would be:
 
-* *Critical :*  Weak encryption (WEP) used in Lazada’s guest wireless network, potentially allowing attackers to intercept and decrypt wireless traffic, thereby exposing sensitive data.
-* *Critical :* Rogue Access Point detected in Lazada’s wireless network, potentially allowing an attacker to intercept wireless traffic and perform man-in-the-middle attacks.
+* *Critical :*
+* Weak encryption (WEP) used in Lazada’s guest wireless network, potentially allowing attackers to intercept and decrypt wireless traffic, thereby exposing sensitive data.
+* *Critical :*
+* Rogue Access Point detected in Lazada’s wireless network, potentially allowing an attacker to intercept wireless traffic and perform man-in-the-middle attacks.
 * *High :* Open wireless networks without any authentication in Lazada’s office, potentially allowing unauthorized access to the network.
 
 5.  #### Social Engineering : ####
 
-* *High :* Several employees fell victim to phishing emails, providing credentials and sensitive information in response.
-* *High :* A number of employees were tricked into downloading malicious software through a spear-phishing attack, compromising the security of their systems.
-* *Critical :* An attacker posed as a tech support specialist and convinced an employee to provide remote access to their computer, potentially exposing sensitive company data.
-* *High :* An attacker impersonated a company executive in an email, requesting urgent wire transfers from the finance department.
-* *Critical :* Employees were targeted by a vishing (voice phishing) attack where the attacker posed as a bank representative and collected sensitive financial information over the phone.
+* *High :*
+* Several employees fell victim to phishing emails, providing credentials and sensitive information in response.
+* *High :*
+* A number of employees were tricked into downloading malicious software through a spear-phishing attack, compromising the security of their systems.
+* *Critical :*
+* An attacker posed as a tech support specialist and convinced an employee to provide remote access to their computer, potentially exposing sensitive company data.
+* *High :*
+* An attacker impersonated a company executive in an email, requesting urgent wire transfers from the finance department.
+* *Critical :*
+* Employees were targeted by a vishing (voice phishing) attack where the attacker posed as a bank representative and collected sensitive financial information over the phone.
    
 _**Recommendations :**_
 
@@ -75,7 +88,7 @@ _**Recommendations :**_
 * *Server-Side Request Forgery (SSRF) :* Whitelist URLs: Only allow connections to trusted URLs. This can prevent an attacker from making requests to internal resources.
 * *Cross-Site Scripting (XSS) :*
 * *Output Encoding :* Use output encoding when returning user input in HTML to ensure that any characters that have a special meaning in HTML are escaped properly.
-* *Content Security Policy (CSP) :* mplement a Content Security Policy (CSP) to limit the locations from which scripts can be loaded.
+* *Content Security Policy (CSP) :* Implement a Content Security Policy (CSP) to limit the locations from which scripts can be loaded.
 * Cross-Site Request Forgery (CSRF): Anti-CSRF Tokens: Use anti-CSRF tokens in forms to ensure that requests are only accepted from legitimate sources.
 * *Unvalidated Redirects and Forwards :* Avoid Redirects and Forwards: If possible, avoid using redirects and forwards in your application.
 * *URL Validation :* If redirects or forwards are necessary, ensure that the target URL is validated to be a part of your application.
@@ -105,3 +118,7 @@ CEO Fraud:
 Vishing Attacks:
 * *Security Awareness Training :* Train employees on how to recognize and respond to vishing attacks.
 * *Caller ID Spoofing Awareness :* Make employees aware that caller ID can be spoofed and that they should not rely on it to verify a caller’s identity.
+
+_**Conclusions :**_
+
+The results of the ethical hacking evaluation reveal a number of significant vulnerabilities and security gaps within Lazada’s infrastructure and applications. By taking action on the suggested remediation steps, Lazada can greatly improve its security stance and reduce the likelihood of cyber threats and data breaches. This will ensure a safer and more secure shopping experience for all Lazada customers.
