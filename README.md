@@ -1,7 +1,7 @@
 # Final Project - Ethical Hacking Report
 _**Client :**_ *Lazada Group*
 
-_**Date :**_ *May, 11 2024*
+_**Date :**_ *May 11, 2024*
 
 _**Prepared By :**_ *Buquid, Ed Jim C. and Bondoy, Monica G.*
 
@@ -15,17 +15,17 @@ remediation.
 _**Vulnerability Summary**_
 1.  #### Network Infrastructure ####
 
- * *Crital :*
- * Remote Code Execution vulnerability (CVE-2024-1234) in the Apache Struts framework (version 2.3.34) running on Lazada’s main server, potentially allowing an attacker to execute arbitrary code remotely.
+* *Crital :*
+* Remote Code Execution vulnerability (CVE-2024-1234) in the Apache Struts framework (version 2.3.34) running on Lazada’s main server, potentially allowing an attacker to execute arbitrary code remotely.
 * *High :*
 * Misconfigured firewall rules on Lazada’s payment processing server permitting unrestricted access from external IP ranges to sensitive internal services such as SSH and RDP.
 
-2.  #### Web Applications : ####
+2.  #### Web Applications ####
+   
 * *Critical :*
- - SQL Injection vulnerability in the login form of Lazada, potentially enabling an attacker to extract sensitive data from the database.
- - Insecure Direct Object References (IDOR) vulnerability in the user profile section of Lazada, potentially allowing an attacker to manipulate references to access unauthorized data.
- -  Server-Side Request Forgery (SSRF) vulnerability in the file upload functionality of Lazada, potentially allowing an attacker to make requests to internal resources.
-
+* SQL Injection vulnerability in the login form of Lazada, potentially enabling an attacker to extract sensitive data from the database.
+* Insecure Direct Object References (IDOR) vulnerability in the user profile section of Lazada, potentially allowing an attacker to manipulate references to access unauthorized data.
+* Server-Side Request Forgery (SSRF) vulnerability in the file upload functionality of Lazada, potentially allowing an attacker to make requests to internal resources.
 * *High :*
 * Cross-Site Scripting (XSS) vulnerability in Lazada, allowing attackers to execute malicious scripts in users’ browsers.
 * Cross-Site Request Forgery (CSRF) vulnerability in Lazada, potentially enabling an attacker to trick a victim into performing actions they did not intend to.
@@ -43,12 +43,11 @@ _**Vulnerability Summary**_
 
 4.  #### Wireless ####
 
- * *Critical :*
- * Rogue Access Point detected in Lazada’s wireless network, potentially allowing an attacker to intercept wireless traffic and perform man-in-the-middle attacks.
+* *Critical :*
+* Rogue Access Point detected in Lazada’s wireless network, potentially allowing an attacker to intercept wireless traffic and perform man-in-the-middle attacks.
 * *High :*
 * Open wireless networks without any authentication in Lazada’s office, potentially allowing unauthorized access to the network.
 So, the updated list would be:
-
 * *Critical :*
 * Weak encryption (WEP) used in Lazada’s guest wireless network, potentially allowing attackers to intercept and decrypt wireless traffic, thereby exposing sensitive data.
 * *Critical :*
@@ -70,7 +69,8 @@ So, the updated list would be:
    
 _**Recommendations**_
 
-1. #### Remote Code Execution Vulnerability : ####
+1. #### Remote Code Execution Vulnerability ####
+   
 * *Patch or Upgrade Apache Struts :* The Apache Struts framework should be patched or upgraded to a version that fixes the CVE-2024-1234 vulnerability. Regularly check for and apply updates or patches released by the software vendor.
 * *Regular Vulnerability Scanning :* Conduct regular vulnerability scanning to identify and fix any new vulnerabilities that may arise.
 * *Least Privilege Principle :* Ensure that applications running on the server follow the principle of least privilege, meaning they should only have the permissions they need to function and no more. This can limit the potential damage from a remote code execution vulnerability.
@@ -105,8 +105,8 @@ _**Recommendations**_
 5.  #### Phishing Emails ####
 
 * *Security Awareness Training :* Conduct regular security awareness training for employees to help them identify and respond appropriately to phishing emails.
-Email Filtering: Implement email filtering solutions that can detect and block phishing emails.
-Spear-Phishing Attacks:
+* *Email Filtering :* Implement email filtering solutions that can detect and block phishing emails.
+* *Spear-Phishing Attacks :*
 * *Advanced Threat Protection :* Use advanced threat protection solutions that can detect and prevent spear-phishing attacks.
 * *Regular Updates :* Keep all systems and software updated to protect against malware.
 * *Tech Support Scams :*
