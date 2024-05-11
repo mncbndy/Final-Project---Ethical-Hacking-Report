@@ -37,7 +37,7 @@ _**Vulnerability Summary :**_
 * *High :* Weak password policies on Lazada’s domain user accounts, potentially facilitating brute-force attacks and unauthorized access.
 
 
-3.  #### Wireless : ####
+4.  #### Wireless : ####
 
  * *Critical :*  Rogue Access Point detected in Lazada’s wireless network, potentially allowing an attacker to intercept wireless traffic and perform man-in-the-middle attacks.
 * *High :* Open wireless networks without any authentication in Lazada’s office, potentially allowing unauthorized access to the network.
@@ -47,7 +47,14 @@ So, the updated list would be:
 * *Critical :* Rogue Access Point detected in Lazada’s wireless network, potentially allowing an attacker to intercept wireless traffic and perform man-in-the-middle attacks.
 * *High :* Open wireless networks without any authentication in Lazada’s office, potentially allowing unauthorized access to the network.
 
+5.  #### Social Engineering : ####
 
+* *High :* Several employees fell victim to phishing emails, providing credentials and sensitive information in response.
+* *High :* A number of employees were tricked into downloading malicious software through a spear-phishing attack, compromising the security of their systems.
+* *Critical :* An attacker posed as a tech support specialist and convinced an employee to provide remote access to their computer, potentially exposing sensitive company data.
+* *High :* An attacker impersonated a company executive in an email, requesting urgent wire transfers from the finance department.
+* *Critical :* Employees were targeted by a vishing (voice phishing) attack where the attacker posed as a bank representative and collected sensitive financial information over the phone.
+   
 _**Recommendations :**_
 
 1. #### Remote Code Execution Vulnerability : ####
@@ -81,3 +88,20 @@ _**Recommendations :**_
 * *Enforce Strong Password Policies :* Implement and enforce strong password policies. This includes using a mix of uppercase and lowercase letters, numbers, and special characters. Passwords should also be of sufficient length (e.g., 12 characters or more).
 * *Regular Password Changes :* Require users to change their passwords regularly, but avoid too frequent changes as it may lead to weak passwords.
 * *Use Two-Factor Authentication (2FA) :* Consider implementing two-factor authentication for an added layer of security.
+
+5.  #### Phishing Emails : ####
+
+* *Security Awareness Training :* Conduct regular security awareness training for employees to help them identify and respond appropriately to phishing emails.
+Email Filtering: Implement email filtering solutions that can detect and block phishing emails.
+Spear-Phishing Attacks:
+* *Advanced Threat Protection :* Use advanced threat protection solutions that can detect and prevent spear-phishing attacks.
+* *Regular Updates :* Keep all systems and software updated to protect against malware.
+* *Tech Support Scams :*
+* *Verification Procedures :* Implement procedures for employees to verify the identity of anyone claiming to be tech support.
+* *Limited Access :* Limit the access rights of users and use strong access controls.
+CEO Fraud:
+* *Verification Procedures :* Implement procedures for verifying any financial transactions requested via email.
+* *Two-Factor Authentication :* Use two-factor authentication for initiating wire transfers.
+Vishing Attacks:
+* *Security Awareness Training :* Train employees on how to recognize and respond to vishing attacks.
+* *Caller ID Spoofing Awareness :* Make employees aware that caller ID can be spoofed and that they should not rely on it to verify a caller’s identity.
